@@ -1,8 +1,8 @@
 package com.scalingo.app;
 
 /**
- * @author Léo Unbekandt
- * @version 2015/03/25
+ * @author Angelo Ferrando
+ * @version 2018/02/08
  */
 
 import static spark.Spark.*;
@@ -15,5 +15,6 @@ public class App {
         }
         setPort(port);
         get("/hello", (req, res) -> "Hello World");
+        //test
     }
 }
